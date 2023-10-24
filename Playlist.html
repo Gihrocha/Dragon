@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html style="background-color: #000000;">
+
+<head>
+  <script>
+    function myFunction() {
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("mySearch");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myMenu");
+      li = ul.getElementsByTagName("li");
+      for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+        } else {
+          li[i].style.display = "none";
+        }
+      }
+    }
+  </script>
+  <title>Dragon Music</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <style>
+     
+      .carousel-inner img {
+        width: 100%;
+        height: 100%;
+      }
+      </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <img
+      src="Fotos/png-transparent-chinese-dragon-logo-china-dragon-logo-dragon-illustrator-china-thumbnail-removebg-preview.png"
+      class="foto">
+
+    <a href="#default" class="logo">Dragon</a>
+
+    <a class="active" href="capa.html">Home</a>
+    <a href="Dragon.html">Músicas</a>
+    <a href="Podcast.html">Podcast</a>
+    <a href="Playlist.html">Biblioteca</a>
+    <a href="">Meu Perfil</a>
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+
+  </div>
+  
+
+
+
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators" >
+
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <header style="background-color: rgb(204, 204, 204);">
+    <img style="width:6%; border-radius: 3px; margin-left: 100px; margin-bottom: 20px;margin-top: 20px;" src="Fotos/criar.png">
+    <img style="width:6%; border-radius: 3px; margin-left: 150px; margin-bottom: 20px;margin-top: 20px;" src="Fotos/curtida.png">
+    <img style="width:6%; border-radius: 3px; margin-left: 150px; margin-bottom: 20px;margin-top: 20px;" src="Fotos/recente.png">
+    <img style="width:6%; border-radius: 3px; margin-left: 150px; margin-bottom: 20px;margin-top: 20px;" src="Fotos/playlist.png">
+    <img style="width:6%; border-radius: 3px; margin-left: 150px; margin-bottom: 20px;margin-top: 20px;" src="Fotos/playlist.png">
+    <img style="width:6%; border-radius: 3px; margin-left: 150px; margin-bottom: 20px;margin-top: 20px;" src="Fotos/playlist.png">
+    <h5 style="opacity: 50%;margin-left: 5%;">Criar playlist⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Curtidas⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Recentes⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Playlist 1⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀playlist 2⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Playlist 3  </h6>
+
+    
+    
+  
+  <footer class="footer2">
+<h4>⠀⠀Recomendadas:</h4>
+<h4 style="margin-left: 22%; opacity: 40%;">As mais ouvidas ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Hits do momento</h5>
+    
+ <img style="width:15%; border-radius: 3px; margin-left: 150px; margin-bottom: 50px;" src="Fotos/rose.jpg">
+ <img style="width:15%; border-radius: 3px; margin-left: 100px; margin-bottom: 50px;" src="Fotos/jao.png">
+ 
+ <img style="width:15%; border-radius: 3px; margin-left: 100px; margin-bottom: 50px;" src="Fotos/kiss.jpg">
+ <img style="width:15%; border-radius: 3px; margin-left: 100px; margin-right: 150px; margin-bottom: 50px;" src="Fotos/album.png">
+
+  <footer class="footer3">
+    <div class="footer-content3">
+      <h3>Dragon</h3>
+      <p>Conheça o Dragon Música: O Seu Portal para um Mundo de Harmonia e Ritmo
+
+        A música tem o poder de nos envolver, emocionar e nos transportar para diferentes lugares
+        e estados de espírito. Seja você um amante da música clássica, um aficionado por rock, um
+        apreciador de hip-hop, ou simplesmente alguém que aprecia uma boa melodia, o Dragon Música
+        é o seu destino
+        definitivo para explorar e desfrutar da vasta e diversificada paisagem musical.</p>
+      <ul class="socials">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+    </div>
+
+
+  </footer>
+
+
+
+ 
+</body>
+
+</html>
